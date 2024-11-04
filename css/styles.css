@@ -1,0 +1,133 @@
+/*Reset CSS básico*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Estilo del Body*/
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.6;
+    background-color:#f4f4f4;
+    color: #333;
+}
+/*Cabecera con  immagen de fondo*/
+#main-header{
+    background: url(./../img/portadagim.jpg)  no-repeat center center/cover ;
+    height: 100vh;
+    color: white;
+    position: relative;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.5) ;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#nav-menu ul{
+    list-style: none ;
+}
+#nav-menu ul li {
+    margin: 0 20px;
+    list-style: none ;
+}
+#nav-menu ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+#nav-menu ul li a:hover{
+    text-decoration: underline;
+
+}
+#main-header h1{
+     font-size: 4rem;
+     margin-top: 1.8rem;
+}
+/*seccion contenedora general*/
+.container{
+    padding: 3rem ;
+    max-width: 1200px ;
+    margin: 0 auto ;
+    text-align: center ;
+}
+/*estilo de la seccion bienvenida*/
+#bienvenida p{
+    font-size: 1.1rem;
+    margin-top: 20px;
+}
+/*Estilos del listado de actividades*/
+#actividades h2{
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+
+}
+.lista-actividades{
+    list-style: none;
+}
+.lista-actividades li{
+    margin: 20px 0 ;
+}
+.lista-actividades h3{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #b975aa
+}
+.lista-actividades p{
+    font-size: 1rem;
+
+}
+/*estilo galeria*/
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap ;
+}
+.gallery img {
+    width: 30%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.gallery img:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+/*estilos de pie de página*/
+#main-footer{
+    background-color: #333;
+    color: white ;
+    padding: 20px 0;
+    text-align: center;
+}
+/*Estilos del contacto*/
+#contacto_real h2{
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+
+}
+.contacto_redes{
+    list-style: none;
+    margin: 20px 0 ;
+}
+
+.contacto_redes{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #0c0e0d
+    
+}
+.contacto_redes a{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #009879
+}
+.contacto_redes p{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #009879
+}
