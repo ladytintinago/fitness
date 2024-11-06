@@ -8,8 +8,8 @@
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     line-height: 1.6;
-    background-color:#f4f4f4;
-    color: #333;
+    background-color:#DB9CFA; /*Color de fondo modificado*/
+    color: #4B2E83;
 }
 /*Cabecera con  immagen de fondo*/
 #main-header{
@@ -75,7 +75,7 @@ body{
 .lista-actividades h3{
     font-size: 1.5rem;
     margin-bottom: 10px;
-    color: #b975aa
+    color: #5C4B91;
 }
 .lista-actividades p{
     font-size: 1rem;
@@ -118,16 +118,16 @@ body{
 .contacto_redes{
     font-size: 1.5rem;
     margin-bottom: 10px;
-    color: #0c0e0d
+    color: #4B2E83; 
     
 }
 .contacto_redes a{
     font-size: 1.5rem;
     margin-bottom: 10px;
-    color: #009879
+    color: #A75BB5;
 }
 .contacto_redes p{
     font-size: 1.5rem;
     margin-bottom: 10px;
-    color: #009879
+    color: #A75BB5;
 }
